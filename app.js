@@ -7,7 +7,7 @@ function gotowhatsapp() {
   var url =
     // "https://wa.me/9664263053?text=" +
     // https://api.whatsapp.com/send?phone=919828550720&text=Hello sir
-    "https://api.whatsapp.com/send?phone=9664263053&text=" +
+    "https://api.whatsapp.com/send?phone=9828550720&text=" +
     "Name: " +
     name +
     "%0a" +
@@ -18,5 +18,5 @@ function gotowhatsapp() {
     service;
 
   window.open(url, "_blank").focus();
-//   alert("you sended ");
+  //   alert("you sended ");
 }
