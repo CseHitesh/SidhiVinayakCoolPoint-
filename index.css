@@ -1,0 +1,108 @@
+/* header css  */
+
+.check:hover {
+  color: #083464 !important;
+  /* font-size: larger; */
+}
+
+/* for opening menue on hover  */
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* sidebar  */
+
+.sidebutton {
+  background-color: #083464;
+}
+
+
+/* carosuel handle  */
+
+.imgHangleInMobile{
+  max-height: 50vh;
+}
+
+
+
+/* form handling  */
+.myform {
+      background: linear-gradient(90deg, rgba(58,180,149,1) 0%, rgba(99,241,150,1) 49%, rgba(69,160,252,1) 100%);
+    border-radius: 10px 50px 0px 50px;
+    
+    
+}
+
+
+
+/* ac reapair page css start  */
+
+
+/* main content  */
+
+.ac_main {
+      background: linear-gradient(90deg, rgba(58,180,149,1) 0%, rgba(99,241,150,1) 49%, rgba(69,160,252,1) 100%);
+    /* border-radius: 10px 50px 0px 50px; */
+    width: 100vw;
+    
+    
+}
+
+
+
+
+
+
+/* Mobile view  */
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+/* 
+index.html or home page
+  */
+
+
+
+
+
+
+
+/*
+ ac repaire  page 
+  */
+
+/* main section  */
+
+.myheading1{
+ font-size: 20px;
+}
+
+
+.myheading2{
+font-size: 18px;
+}
+
+
+.myheading3{
+font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
