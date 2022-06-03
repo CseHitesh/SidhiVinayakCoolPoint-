@@ -17,92 +17,139 @@
   background-color: #083464;
 }
 
-
 /* carosuel handle  */
 
-.imgHangleInMobile{
+.imgHangleInMobile {
   max-height: 50vh;
 }
 
-
-
 /* form handling  */
 .myform {
-      background: linear-gradient(90deg, rgba(58,180,149,1) 0%, rgba(99,241,150,1) 49%, rgba(69,160,252,1) 100%);
-    border-radius: 10px 50px 0px 50px;
-    
-    
+  background: linear-gradient(
+    90deg,
+    rgba(58, 180, 149, 1) 0%,
+    rgba(99, 241, 150, 1) 49%,
+    rgba(69, 160, 252, 1) 100%
+  );
+  border-radius: 10px 50px 0px 50px;
 }
 
+/* brnads images styling  */
+.brands-style {
+  box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.78);
+}
 
+/* services section  */
+
+/* .spacer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+} */
+
+/* .spacer svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+} */
 
 /* ac reapair page css start  */
-
 
 /* main content  */
 
 .ac_main {
-      background: linear-gradient(90deg, rgba(58,180,149,1) 0%, rgba(99,241,150,1) 49%, rgba(69,160,252,1) 100%);
-    /* border-radius: 10px 50px 0px 50px; */
-    width: 100vw;
-    
-    
+  background: linear-gradient(
+    90deg,
+    rgba(58, 180, 149, 1) 0%,
+    rgba(99, 241, 150, 1) 49%,
+    rgba(69, 160, 252, 1) 100%
+  );
+  /* border-radius: 10px 50px 0px 50px; */
+  width: 100vw;
 }
 
+/* specialization section css  */
 
+.myspcialization-section {
+  border-radius: 0px 17px !important;
+  box-shadow: 3px 4px 3px 1px rgb(0 0 0 / 78%) !important;
+  -webkit-box-shadow: 3px 4px 3px 1px rgb(0 0 0 / 78%) !important;
+  -moz-box-shadow: 3px 4px 3px 1px rgba(0, 0, 0, 0.78);
+}
 
+/* mycustom button of specialiaztion  */
+.mybtn {
+  background: #00129e;
+  background-image: -webkit-linear-gradient(top, #00129e, #2980b9);
+  background-image: -moz-linear-gradient(top, #00129e, #2980b9);
+  background-image: -ms-linear-gradient(top, #00129e, #2980b9);
+  background-image: -o-linear-gradient(top, #00129e, #2980b9);
+  background-image: linear-gradient(to bottom, #00129e, #2980b9);
+  -webkit-border-radius: 29;
+  -moz-border-radius: 29;
+  border-radius: 29px;
+  text-shadow: 1px 3px 19px #666666;
+  -webkit-box-shadow: 3px 5px 15px #666666;
+  -moz-box-shadow: 3px 5px 15px #666666;
+  box-shadow: 3px 5px 15px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 7px 19px 7px 20px;
+  text-decoration: none;
+}
 
+.mybtn:hover {
+  background: #38afff;
+  background-image: -webkit-linear-gradient(top, #38afff, #3498db);
+  background-image: -moz-linear-gradient(top, #38afff, #3498db);
+  background-image: -ms-linear-gradient(top, #38afff, #3498db);
+  background-image: -o-linear-gradient(top, #38afff, #3498db);
+  background-image: linear-gradient(to bottom, #38afff, #3498db);
+  text-decoration: none;
+}
 
+/* how we work section  */
 
+.hww {
+  border-radius: 0px 78px 85px;
+  /* box-shadow: 1px 4px 3px 1px rgb(0 0 0 / 78%); */
+  /* -webkit-box-shadow: 1px 4px 3px 1px rgb(0 0 0 / 78%); */
+  -moz-box-shadow: 1px 4px 3px 1px rgba(0, 0, 0, 0.78);
+  box-shadow: 9px 12px 3px 1px rgb(221 220 220 / 78%);
+  -webkit-box-shadow: 9px 12px 3px 1px rgb(0 0 0 / 78%);
+  -moz-box-shadow: 9px 12px 3px 1px rgba(0, 0, 0, 0.78);
+}
 /* Mobile view  */
 
-
 @media only screen and (max-width: 600px) {
-
-
-
-/* 
+  /* 
 index.html or home page
   */
 
-
-
-
-
-
-
-/*
+  /*
  ac repaire  page 
   */
 
-/* main section  */
+  /* main section  */
 
-.myheading1{
- font-size: 20px;
-}
+  .myheading1 {
+    font-size: 20px;
+  }
 
+  .myheading2 {
+    font-size: 18px;
+  }
 
-.myheading2{
-font-size: 18px;
-}
-
-
-.myheading3{
-font-size: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .myheading3 {
+    font-size: 15px;
+  }
 }
